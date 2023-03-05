@@ -1,4 +1,4 @@
-#Proximal
+# Proximal
     
 I go through each point in the image and find the closest point
 of the 4 corners. Then I add the pixel to the final image.
@@ -19,7 +19,7 @@ Further. Then I find the 4 points that surround x_p and y_p, I calculate the coe
 of interpolation and then I calculate the interpolated value of the pizel.
 
 
-#Bicubic
+# Bicubic
 
 First I calculate the partial derivatives according to the formula, and then I calculate the three matrices
 Ix, Iy, Ixy. For each individual I find the derivatives at all points.
@@ -34,7 +34,7 @@ I calculated the point (x_p, y_p), then I found the surrounding points and calcu
 interpolation coefficients. And then I calculated the interpolated value using
 formula
 
-#Lanczos
+# Lanczos
 
 ## Adaptive Lanczos
 
